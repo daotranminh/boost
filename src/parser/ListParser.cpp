@@ -62,7 +62,8 @@ struct ListParserGrammar: qi::grammar<Iterator, Skipper>
     using phoenix::insert;
     using phoenix::at_c;
 
-    start = (lit('[') >> constants >> lit(']'));
+    start = (lit('[') >> (constants [_a=construct<ConstantListPtr>(new_<ConstantList>(_1))]) >> lit(']'));
+
     constants %= lit("Constants:") >> lit('[') >> constant % lit(',') >> lit(']');
     constant %= +(ascii::alnum);
   }

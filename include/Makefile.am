@@ -1,1 +1,1 @@
-SUBDIRS = base parser
+SUBDIRS = base parser utilities

@@ -72,6 +72,7 @@ AC_CONFIG_FILES([
         include/Makefile
         include/base/Makefile
         include/parser/Makefile
+        include/utilities/Makefile
         src/Makefile
         src/base/Makefile
         src/parser/Makefile

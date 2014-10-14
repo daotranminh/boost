@@ -25,4 +25,5 @@ LIBS = \
 lib_LTLIBRARIES = libbase.la
 
 libbase_la_SOURCES = \
+	ContextQueryPlan.cpp \
 	ListDef.cpp

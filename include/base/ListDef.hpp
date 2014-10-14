@@ -21,4 +21,7 @@ struct ConstantCategory
 typedef std::list<ConstantCategory> ConstantCategoryList;
 typedef boost::shared_ptr<ConstantCategoryList> ConstantCategoryListPtr;
 
+std::ostream&
+operator<<(std::ostream &os, const ConstantList &cl);
+
 #endif // __LIST_DEF_HPP__

@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.69])
+AC_PREREQ([2.68])
 #AM_INIT_AUTOMAKE(main, 0.1)
 AC_INIT([main],[version-0.1])
 AM_INIT_AUTOMAKE([-Wall gnu check-news 1.10])

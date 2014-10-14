@@ -70,8 +70,10 @@ BOOST_ASIO
 AC_CONFIG_FILES([
 	Makefile
         include/Makefile
+        include/base/Makefile
         include/parser/Makefile
         src/Makefile
+        src/base/Makefile
         src/parser/Makefile
 ])
 

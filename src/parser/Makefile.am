@@ -25,4 +25,5 @@ LIBS = \
 lib_LTLIBRARIES = libparser.la
 
 libparser_la_SOURCES = \
+	ListParser.cpp \
 	NumberParser.cpp

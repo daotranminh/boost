@@ -75,6 +75,7 @@ AC_CONFIG_FILES([
         src/Makefile
         src/base/Makefile
         src/parser/Makefile
+	testsuite/Makefile
 ])
 
 AC_OUTPUT

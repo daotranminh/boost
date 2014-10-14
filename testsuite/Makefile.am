@@ -23,6 +23,11 @@ LIBS = \
 	$(BOOST_SYSTEM_LIBS) \
 	$(LOG4CXX_LIBS)
 
+TESTS_ENVIRONMENT = \
+	EXAMPLESDIR=$(top_srcdir)/examples \
+	BOOST_TEST_REPORT_LEVEL=detailed \
+	BOOST_TEST_LOG_LEVEL=all
+
 TESTS = \
 	testListParser
 
